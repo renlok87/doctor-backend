@@ -1,4 +1,5 @@
 module.exports = {
     patientValidation: require('./patient'),
-    appointmentValidation: require('./appointment')
+    appointmentValidation: require('./appointment'),
+    sendSMS: require('./sendSMS')
 };
